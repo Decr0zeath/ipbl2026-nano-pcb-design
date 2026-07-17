@@ -2,6 +2,8 @@
 
 A KiCad-based PCB design for servo motor control in a quadruped robot developed for the **International Project Based Learning (iPBL) 2026** program.
 
+![Expected 3D view](exports/nano_IPBL_2026.png)
+
 ## Overview
 
 This project implements a control board for mapping and managing connections to 12 servo motors used in a quadruped robot platform. The board provides power regulation and signal distribution for synchronized leg movement across four legs (3 servos per leg).
@@ -34,6 +36,12 @@ The 12 servos are organized by quadruped legs:
 - **Rear Left Leg**: M7, M8, M9
 - **Rear Right Leg**: M10, M11, M12
 
+## Board Views
+
+| Front Silkscreen | Bottom Copper Layer |
+|------------------|---------------------|
+| ![Front silkscreen](exports/nano_IPBL_2026-F_Silkscreen.svg) | ![Bottom copper layer](exports/nano_IPBL_2026-B_Cu.svg) |
+
 ## Design Specifications
 
 - **PCB Layers**: 2-layer design
@@ -48,8 +56,9 @@ The 12 servos are organized by quadruped legs:
 - `nano_IPBL_2026.kicad_pcb` - PCB layout
 - `nano_IPBL_2026.kicad_pro` - KiCad project file
 - `nano_IPBL_2026.kicad_prl` - Project runtime library
-- `front layer.svg` - SVG export of front copper layer
-- `bottom layer.svg` - SVG export of bottom copper layer
+- `exports/nano_IPBL_2026-F_Silkscreen.svg` - Front silkscreen view
+- `exports/nano_IPBL_2026-B_Cu.svg` - Bottom copper layer
+- `exports/nano_IPBL_2026.png` - Expected 3D render of the board
 
 ## Getting Started
 
@@ -81,6 +90,10 @@ The 12 servos are organized by quadruped legs:
 - SVG layer exports provide visual reference of copper traces
 - Design includes DRC (Design Rule Check) exclusions for known non-critical issues
 - All servo connections use standard 3-wire Futaba/HiTec/JR connectors
+
+## Credits
+
+This design is based on the original [Quadruped Spider Robot (3D Printed Parts, SG90 Servo Motor, Arduino Nano)](https://www.pcbway.com/project/shareproject/Quadruped_Spider_Robot_3D_Printed_Parts_SG90_Servo_Motor_Arduino_Nano_10107fe3.html) project shared on PCBWay. This repository branches off that design with improvements including revised switch/regulator ordering, larger vias and copper pads, and a rearranged component layout.
 
 ## License
 
