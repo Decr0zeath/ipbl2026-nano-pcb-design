@@ -2,7 +2,9 @@
 
 A KiCad-based PCB design for servo motor control in a quadruped robot developed for the **International Project Based Learning (iPBL) 2026** program.
 
-![Expected 3D view](exports/nano_IPBL_2026.png)
+| Front | Side |
+|-------|------|
+| ![Expected 3D view, front](exports/3dview_front.png) | ![Expected 3D view, side](exports/3dview_side.png) |
 
 ## Overview
 
@@ -38,9 +40,11 @@ The 12 servos are organized by quadruped legs:
 
 ## Board Views
 
+Shown inverted (light traces on dark) so they stay readable against GitHub's dark theme.
+
 | Front Silkscreen | Bottom Copper Layer |
 |------------------|---------------------|
-| ![Front silkscreen](exports/nano_IPBL_2026-F_Silkscreen.svg) | ![Bottom copper layer](exports/nano_IPBL_2026-B_Cu.svg) |
+| ![Front silkscreen](exports/nano_IPBL_2026-F_Silkscreen_inverted.svg) | ![Bottom copper layer](exports/nano_IPBL_2026-B_Cu_inverted.svg) |
 
 ## Design Specifications
 
@@ -56,9 +60,9 @@ The 12 servos are organized by quadruped legs:
 - `nano_IPBL_2026.kicad_pcb` - PCB layout
 - `nano_IPBL_2026.kicad_pro` - KiCad project file
 - `nano_IPBL_2026.kicad_prl` - Project runtime library
-- `exports/nano_IPBL_2026-F_Silkscreen.svg` - Front silkscreen view
-- `exports/nano_IPBL_2026-B_Cu.svg` - Bottom copper layer
-- `exports/nano_IPBL_2026.png` - Expected 3D render of the board
+- `exports/nano_IPBL_2026-F_Silkscreen.svg` - Front silkscreen view (`*_inverted.svg` for dark backgrounds)
+- `exports/nano_IPBL_2026-B_Cu.svg` - Bottom copper layer (`*_inverted.svg` for dark backgrounds)
+- `exports/3dview_front.png` / `exports/3dview_side.png` - Expected 3D renders of the board
 
 ## Getting Started
 
@@ -101,4 +105,4 @@ Part of iPBL 2026 International Project Based Learning Program
 
 ---
 
-*Last updated: 2026-07-17*
+*Last updated: 2026-07-21*
