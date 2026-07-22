@@ -19,7 +19,7 @@ This project implements a control board for mapping and managing connections to 
 - **Raspberry Pi RX/TX Header** - Mounting holes for serial connection to a Raspberry Pi 4B
 - **Compact Design** - Optimized PCB layout for integration into robot chassis
 
-## Hardware Components
+## Component Reference
 
 | Reference | Component | Quantity | Purpose |
 |-----------|-----------|----------|---------|
