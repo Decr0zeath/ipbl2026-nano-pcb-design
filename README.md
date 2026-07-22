@@ -13,22 +13,25 @@ This project implements a control board for mapping and managing connections to 
 ## Key Features
 
 - **12 Servo Motor Connections** - Full support for all leg servos (M1-M12)
-- **5V Power Regulation** - LM1085-5.0 linear regulator for stable servo power
-- **Screw Terminal Connectors** - Easy connection to power and control interfaces
+- **Power Supply Filtering** - Electrolytic capacitors for stable servo power
+- **Screw Terminal Connector** - Easy connection to power input
 - **Arduino-Compatible** - Compatible with Arduino Nano microcontroller platform
+- **Raspberry Pi RX/TX Header** - Mounting holes for serial connection to a Raspberry Pi 4B
 - **Compact Design** - Optimized PCB layout for integration into robot chassis
 
 ## Hardware Components
 
 | Reference | Component | Quantity | Purpose |
 |-----------|-----------|----------|---------|
-| M1-M12 | Servo Motor (Futaba/HiTec/JR connector) | 12 | Motor control for quadruped legs |
-| U1-U2 | LM1085-5.0 (5V Regulator) | 2 | Voltage regulation for servo power |
-| C1-C4 | Capacitors | 4 | Power supply filtering |
-| J1 | Screw Terminal 01x02 | 1 | Power input connector |
-| R1 | Resistor | 1 | Current limiting/biasing |
-| D1 | Diode | 1 | Reverse polarity protection |
-| SW1 | Switch | 1 | Power or reset control |
+| A1 | Arduino Nano | 1 | Main microcontroller |
+| M1-M12 | SG90 servo motor connections | 12 | Motor control for quadruped legs |
+| C1, C2 | 470uF Electrolytic Capacitor | 2 | Power supply filtering |
+| C3 | 100uF Electrolytic Capacitor | 1 | Power supply filtering |
+| J3 | Straight 5mm Plugin Screw Terminal DB301V-5.0-2P | 1 | Power input connector |
+| R1 | 330 ohm 1/4 watt Resistor | 1 | Current limiting for LED |
+| D1 | LED | 1 | Power/status indicator |
+| H1, H2 | Mounting holes | 2 | Jumper wire power switch |
+| H3, H4 | Mounting holes | 2 | RX/TX connection from Nano to another microcontroller (Raspberry Pi 4B) |
 
 ## Servo Motor Configuration
 
