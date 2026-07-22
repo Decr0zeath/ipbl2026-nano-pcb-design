@@ -92,6 +92,8 @@ Shown inverted (light traces on dark) so they stay readable against GitHub's dar
 
 ## Power Budget
 
+- **Power Source**: 2x 3.7V AA batteries in series (7.4V total)
+- **Voltage Regulation**: External buck converter steps down 7.4V to 5V (not part of the PCB)
 - **Servo Motor Draw**: ~100-500mA per servo (depending on load)
 - **Total Potential Draw**: Up to 6A for all 12 servos
 - **Recommended PSU**: 5-6V @ 10A+ for reliable operation
