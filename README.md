@@ -46,6 +46,10 @@ Shown inverted (light traces on dark) so they stay readable against GitHub's dar
 |------------------|---------------------|
 | ![Front silkscreen](exports/nano_IPBL_2026-F_Silkscreen_inverted.svg) | ![Bottom copper layer](exports/nano_IPBL_2026-B_Cu_inverted.svg) |
 
+### Schematic
+
+![Schematic](exports/nano_IPBL_2026_schematic.svg)
+
 ## Design Specifications
 
 - **PCB Layers**: 2-layer design
@@ -60,6 +64,7 @@ Shown inverted (light traces on dark) so they stay readable against GitHub's dar
 - `nano_IPBL_2026.kicad_pcb` - PCB layout
 - `nano_IPBL_2026.kicad_pro` - KiCad project file
 - `nano_IPBL_2026.kicad_prl` - Project runtime library
+- `exports/nano_IPBL_2026_schematic.svg` - Full schematic view
 - `exports/nano_IPBL_2026-F_Silkscreen.svg` - Front silkscreen view (`*_inverted.svg` for dark backgrounds)
 - `exports/nano_IPBL_2026-B_Cu.svg` - Bottom copper layer (`*_inverted.svg` for dark backgrounds)
 - `exports/3dview_front.png` / `exports/3dview_side.png` - Expected 3D renders of the board
