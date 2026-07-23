@@ -5,7 +5,9 @@
 	(uuid "0d35483a-0b12-46cc-b9f2-896fd6831779")
 	(paper "A4")
 	(title_block
+		(title "iPBL 2026 - Servo Nano Connection")
 		(date "sam. 04 avril 2015")
+		(rev "v2.1")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -2241,6 +2243,10 @@
 		(uuid "703c8f2d-8c8e-45ba-a03c-ccefe7a4614e")
 	)
 	(no_connect
+		(at 114.3 52.07)
+		(uuid "8e3eb318-0ec7-409f-affe-172dfd317d49")
+	)
+	(no_connect
 		(at 139.7 62.23)
 		(uuid "8fa333a2-e3ce-46aa-838b-6b7217d98445")
 	)
@@ -2255,6 +2261,10 @@
 	(no_connect
 		(at 139.7 69.85)
 		(uuid "bd7eb7b5-a967-41d4-b017-d7a4125f1499")
+	)
+	(no_connect
+		(at 114.3 54.61)
+		(uuid "ca5c2e53-4b44-4e17-9733-61a457b53fc3")
 	)
 	(no_connect
 		(at 139.7 77.47)
@@ -2546,16 +2556,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 29.21) (xy 110.49 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e5b5e2e-66ec-4627-91c6-c5aee232b1b2")
-	)
-	(wire
-		(pts
 			(xy 111.76 82.55) (xy 111.76 100.33)
 		)
 		(stroke
@@ -2766,16 +2766,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 29.21) (xy 110.49 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6432bd87-7691-47af-a60d-0240a2ccf92f")
-	)
-	(wire
-		(pts
 			(xy 92.71 125.73) (xy 92.71 139.7)
 		)
 		(stroke
@@ -2783,16 +2773,6 @@
 			(type default)
 		)
 		(uuid "6547ebed-3a2f-42d4-9dfe-da7fb02eccb0")
-	)
-	(wire
-		(pts
-			(xy 66.04 102.87) (xy 76.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66420674-db65-4aa2-a47d-8ad3fbca9746")
 	)
 	(wire
 		(pts
@@ -2906,26 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 29.21) (xy 121.92 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae7c829-dcb8-47a4-8ac3-18d274b35ea5")
-	)
-	(wire
-		(pts
-			(xy 66.04 102.87) (xy 66.04 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bbf4428-5edf-49e6-a962-f736b8250565")
-	)
-	(wire
-		(pts
 			(xy 53.34 125.73) (xy 66.04 125.73)
 		)
 		(stroke
@@ -3016,16 +2976,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 57.15) (xy 76.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00244ec-fbe1-4f6d-aefc-46e15f52dbb0")
-	)
-	(wire
-		(pts
 			(xy 106.68 77.47) (xy 106.68 95.25)
 		)
 		(stroke
@@ -3063,16 +3013,6 @@
 			(type default)
 		)
 		(uuid "a3d3d541-98b8-468b-ab10-9a9c23003367")
-	)
-	(wire
-		(pts
-			(xy 114.3 52.07) (xy 114.3 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aff29d75-07c8-4064-b16d-b5c276760a75")
 	)
 	(wire
 		(pts
@@ -3206,16 +3146,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 57.15) (xy 114.3 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d67cb2-b9ce-48d9-b98f-bf83bb4cb780")
-	)
-	(wire
-		(pts
 			(xy 114.3 59.69) (xy 73.66 59.69)
 		)
 		(stroke
@@ -3326,13 +3256,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 54.61) (xy 114.3 54.61)
+			(xy 109.22 57.15) (xy 114.3 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dee63c01-4e74-4ab0-abb3-ac87cb8848e5")
+		(uuid "e410bf8f-d23b-4344-b75c-ca54ef9494fc")
 	)
 	(wire
 		(pts
@@ -3436,6 +3366,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 109.22) (xy 66.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b2e698-5230-4311-8ab7-3d71c42d1bee")
+	)
+	(wire
+		(pts
 			(xy 92.71 161.29) (xy 53.34 161.29)
 		)
 		(stroke
@@ -3504,6 +3444,26 @@
 		)
 		(uuid "ff9d3ce0-609b-46a7-82b6-97ad1c4b0e55")
 	)
+	(label "D2"
+		(at 62.23 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1de76851-4df6-4786-8999-3175398ed182")
+	)
+	(label "D2"
+		(at 109.22 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef486cea-265f-47ce-9f57-ea0e4180dd37")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 166.37 36.83 0)
@@ -3515,7 +3475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0677817f-60ab-48b1-b86b-b88102dbfbef")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 166.37 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3575,7 +3535,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3592,7 +3552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d96560b-51f5-4080-8564-50b3637c0d52")
-		(property "Reference" "M4+1"
+		(property "Reference" "M4"
 			(at 72.898 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +3630,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M4+1")
+					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -3686,10 +3646,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "101b68ee-86e7-45e2-aa23-ecaa447c7790")
-		(property "Reference" "M10+1"
-			(at 146.05 124.0268 0)
+		(property "Reference" "M10"
+			(at 135.636 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3700,7 +3659,7 @@
 			)
 		)
 		(property "Value" "Motor_Servo"
-			(at 146.05 126.5668 0)
+			(at 132.08 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3766,7 +3725,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M10+1")
+					(reference "M10")
 					(unit 1)
 				)
 			)
@@ -3782,10 +3741,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1179d747-409d-4f01-bea5-e9f66c0e1a6c")
 		(property "Reference" "D1"
-			(at 156.5274 33.02 90)
+			(at 153.924 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3796,7 +3754,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 159.0674 33.02 90)
+			(at 153.924 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3887,7 +3845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15356101-32c4-463c-ada8-028338328b16")
-		(property "Reference" "M1+1"
+		(property "Reference" "M1"
 			(at 72.898 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3965,7 +3923,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M1+1")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -3982,7 +3940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b95837c-5cc5-444e-ae79-951fb90aac09")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4042,7 +4000,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4059,8 +4017,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bdea457-d8e9-48e6-a1e0-c5e5c1c3b592")
-		(property "Reference" "H2"
-			(at 73.66 29.718 0)
+		(property "Reference" "SW_B1"
+			(at 72.898 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4120,7 +4078,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "H2")
+					(reference "SW_B1")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f924b24-678c-4c38-8b24-cbb530f1659d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 40.64 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4198,7 +4156,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4215,7 +4173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c1902f9-b12d-419e-8bdc-8a7ad72a20e6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 90.17 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4275,7 +4233,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4293,7 +4251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2df39dac-e84e-4991-858c-f60ca76d25e8")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 127 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -4353,7 +4311,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "360d96ea-02df-4f63-a9a4-22657cfdfff3")
-		(property "Reference" "H1"
+		(property "Reference" "SW_A1"
 			(at 53.34 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4431,7 +4389,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "H1")
+					(reference "SW_A1")
 					(unit 1)
 				)
 			)
@@ -4447,10 +4405,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "405a31c3-a310-40c2-a3cf-b3e4c2b7a6b3")
-		(property "Reference" "M9+1"
-			(at 146.05 110.0568 0)
+		(property "Reference" "M9"
+			(at 136.144 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4461,7 +4418,7 @@
 			)
 		)
 		(property "Value" "Motor_Servo"
-			(at 146.05 112.5968 0)
+			(at 131.826 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4527,7 +4484,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M9+1")
+					(reference "M9")
 					(unit 1)
 				)
 			)
@@ -4545,7 +4502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51d2e0cd-5978-42a3-84ba-fd6d60aece03")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 95.25 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -4605,7 +4562,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4622,7 +4579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "740259bb-a571-4b7a-a6e5-00b97421ea22")
-		(property "Reference" "M6+1"
+		(property "Reference" "M6"
 			(at 104.648 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,7 +4657,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M6+1")
+					(reference "M6")
 					(unit 1)
 				)
 			)
@@ -4717,7 +4674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d33201c-fb85-45ea-80b0-292ae23a7854")
-		(property "Reference" "M5+1"
+		(property "Reference" "M5"
 			(at 104.648 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4752,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M5+1")
+					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -4981,10 +4938,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99c7247c-95a5-4271-8204-c18f0c382e87")
-		(property "Reference" "M11+1"
-			(at 146.05 137.9968 0)
+		(property "Reference" "M11"
+			(at 135.636 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4995,7 +4951,7 @@
 			)
 		)
 		(property "Value" "Motor_Servo"
-			(at 146.05 140.5368 0)
+			(at 132.08 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5061,7 +5017,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M11+1")
+					(reference "M11")
 					(unit 1)
 				)
 			)
@@ -5078,7 +5034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b84864e-4e53-484a-a3aa-33f7e4e4b839")
-		(property "Reference" "M7+1"
+		(property "Reference" "M7"
 			(at 104.648 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5156,7 +5112,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M7+1")
+					(reference "M7")
 					(unit 1)
 				)
 			)
@@ -5173,7 +5129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9286020-c92f-460d-b41c-184558fad0f3")
-		(property "Reference" "M3+1"
+		(property "Reference" "M3"
 			(at 72.898 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5251,85 +5207,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M3+1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 121.92 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aef73b64-b80b-45dd-9aee-539318e5db9a")
-		(property "Reference" "H4"
-			(at 120.65 19.558 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 113.538 22.098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Arduino_MountingHole:MountingHole_1.2mm_M2_Pad_EDITED"
-			(at 121.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 121.92 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c60283e-b2e4-4c82-8944-8de08a5e51ab")
-		)
-		(instances
-			(project "nano_IPBL_2026"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "H4")
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -5437,28 +5315,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2fb79ef-c96e-4262-bf96-5fc8daceee3a")
 		(property "Reference" "R1"
-			(at 144.7799 34.29 0)
+			(at 139.954 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "330ohms"
-			(at 147.3199 34.29 0)
+			(at 139.954 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
@@ -5608,10 +5485,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d60a2ca9-1492-4c60-b3c7-c2585e0b818d")
-		(property "Reference" "M12+1"
-			(at 146.05 153.2368 0)
+		(property "Reference" "M12"
+			(at 135.636 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5622,7 +5498,7 @@
 			)
 		)
 		(property "Value" "Motor_Servo"
-			(at 146.05 155.7768 0)
+			(at 131.826 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5688,7 +5564,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M12+1")
+					(reference "M12")
 					(unit 1)
 				)
 			)
@@ -5705,7 +5581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d92adff8-7c7d-486c-bb84-71fec3d63a9c")
-		(property "Reference" "M2+1"
+		(property "Reference" "M2"
 			(at 73.152 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,7 +5659,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M2+1")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -5868,84 +5744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 101.6 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e23e7be2-5f85-4ebc-9ff6-d58edfb801e2")
-		(property "Reference" "H3"
-			(at 100.33 19.558 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 93.218 22.098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Arduino_MountingHole:MountingHole_1.2mm_M2_Pad_EDITED"
-			(at 101.6 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 101.6 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0dde5dca-fb9f-4fe9-bfb1-be4a377e055e")
-		)
-		(instances
-			(project "nano_IPBL_2026"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 35.56 46.99 180)
 		(unit 1)
@@ -5956,7 +5754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecb8fc58-d3c4-4cb5-a1aa-011057c22193")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 33.02 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6029,7 +5827,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6139,7 +5937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6bd8845-492e-4f93-a96a-1165a03db066")
-		(property "Reference" "M8+1"
+		(property "Reference" "M8"
 			(at 104.648 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6217,7 +6015,7 @@
 		(instances
 			(project "nano_IPBL_2026"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "M8+1")
+					(reference "M8")
 					(unit 1)
 				)
 			)
