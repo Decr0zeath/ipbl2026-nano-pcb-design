@@ -1,5 +1,5 @@
 Drill report for nano_IPBL_2026.kicad_pcb
-Created on 2026-07-23T16:00:49
+Created on 2026-07-24T12:17:37
 
 Copper Layer Stackup:
     =============================================================
@@ -10,9 +10,9 @@ Copper Layer Stackup:
 Drill file 'nano_IPBL_2026-PTH-drl.gbr' contains
     plated through holes:
     =============================================================
-    T1  0.400mm  0.0157"  (82 holes))
+    T1  0.400mm  0.0157"  (80 holes))
 
-    Total plated holes count 82
+    Total plated holes count 80
 
 
 Drill file 'nano_IPBL_2026-NPTH-drl.gbr' contains

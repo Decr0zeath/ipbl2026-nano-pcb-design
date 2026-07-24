@@ -43,11 +43,11 @@ The 12 servos are organized by quadruped legs:
 
 ## Board Views
 
-Shown inverted (light traces on dark) so they stay readable against GitHub's dark theme.
+Shown in color (rather than plain black) so they stay readable against GitHub's dark theme.
 
 | Front Silkscreen | Bottom Copper Layer |
 |------------------|---------------------|
-| ![Front silkscreen](exports/nano_IPBL_2026-F_Silkscreen_inverted.svg) | ![Bottom copper layer](exports/nano_IPBL_2026-B_Cu_inverted.svg) |
+| ![Front silkscreen](exports/nano_IPBL_2026-F_Silkscreen_colored.svg) | ![Bottom copper layer](exports/nano_IPBL_2026-B_Cu_colored.svg) |
 
 ### Schematic
 
@@ -68,8 +68,8 @@ Shown inverted (light traces on dark) so they stay readable against GitHub's dar
 - `nano_IPBL_2026.kicad_pro` - KiCad project file
 - `nano_IPBL_2026.kicad_prl` - Project runtime library
 - `exports/nano_IPBL_2026_schematic.svg` - Full schematic view
-- `exports/nano_IPBL_2026-F_Silkscreen.svg` - Front silkscreen view (`*_inverted.svg` for dark backgrounds)
-- `exports/nano_IPBL_2026-B_Cu.svg` - Bottom copper layer (`*_inverted.svg` for dark backgrounds)
+- `exports/nano_IPBL_2026-F_Silkscreen_colored.svg` - Front silkscreen view, colored (`*_black.svg` for plain black)
+- `exports/nano_IPBL_2026-B_Cu_colored.svg` - Bottom copper layer, colored (`*_black.svg` for plain black)
 - `exports/3dview_front.png` / `exports/3dview_side.png` - Expected 3D renders of the board
 
 ## Getting Started
